@@ -44,8 +44,8 @@ class VideoPage extends StatelessWidget {
               color: Colors.white,
               child: Column(
                 children: [
-                  _buildVideoPlayer(videoController), // The video player section
-                  Expanded(child: _buildLessonList(videoController)), // The suggestions list
+                  _buildVideoPlayer(videoController), 
+                  Expanded(child: _buildLessonList(videoController)),
                 ],
               ),
             );
